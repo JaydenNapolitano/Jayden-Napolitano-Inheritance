@@ -16,5 +16,5 @@ double Truck::getTowingCapacity() const {
 
 void Truck::displayInfo() const {
 	Vehicle::displayInfo();
-	cout << "Towing Capacity:" << towingCapacity << " lbs" << endl;
+	cout << "Towing Capacity: " << towingCapacity << endl;
 }

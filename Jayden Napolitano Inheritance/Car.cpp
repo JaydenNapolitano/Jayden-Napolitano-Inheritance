@@ -16,5 +16,5 @@ int Car::getNumDoors() const {
 
 void Car::displayInfo() const {
 	Vehicle::displayInfo(); 
-	cout << "Number of Doors: " << numDoors << endl;
+	cout << "Doors: " << numDoors << endl;
 }
